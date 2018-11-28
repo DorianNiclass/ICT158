@@ -4,6 +4,8 @@
 |Nom|Adresse|Masque de sous-réseau|
 |---|-------|---------------------|
 |ICT158-SRV03-1|10.1.1.20|255.255.255.0|
+|ICT158-CLI7-1|via DHCP||
+
 ## Configuration ICT158-SRV03-1
 
 
@@ -107,22 +109,25 @@ Liste des imprimantes
 
 #### Utilisateurs AD
 
-|Nom|Nom d'ouverture de session|Groupes|
-|---|--------------------------|-------|
-|Mélanie Alonso|Melanie.alonso|Utilisateurs du domaine|
-|Dana Schipper|Dana.Schipper|Utilisateurs du domaine|
-|Marc Mueller|Marc.Mueller|Utilisateurs du domaine|
-|Tim Brown|Tim.Brown|Utilisateurs du domaine<br>  IT|
-|Jean-Michel Blaser|Jean-Michel.Blaser|Utilisateurs du domaine<br> Logistique|
-|André Dupré|andre.dupre|Utilisateurs du domaine|
-|Juerg Haefeli|Juerg.haefeli|Utilisateurs du domaine|
-|Admin|Admin|Utilisateur|
+|Nom|Nom d'ouverture de session|Groupes|Chemin du profil|Chemin personnel|Script d'ouverture de session|
+|---|--------------------------|-------|----------------|----------------|--------------------------------------|
+|Mélanie Alonso|Melanie.alonso|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\Melanie.alanso|\\\\ICT158-SRV03-1\Utilisateurs$\Melanie.alonso|Script_Back.vbs|
+|Dana Schipper|Dana.Schipper|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\Dana.Schipper|\\\\ICT158-SRV03-1\Utilisateurs$\Dana.Schipper|Script_Compta.vbs|
+|Marc Mueller|Marc.Mueller|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\Marc.Mueller|\\\\ICT158-SRV03-1\Utilisateurs$\Marc.Mueller|Script_Direction.vbs|
+|Tim Brown|Tim.Brown|Utilisateurs du domaine<br>  IT|\\\\ICT158-SRV03-1\Profils$\Tim.Brown|\\\\ICT158-SRV03-1\Utilisateurs$\Tim.Brown|Script_IT.vbs|
+|Jean-Michel Blaser|Jean-Michel.Blaser|Utilisateurs du domaine<br> Logistique|\\\\ICT158-SRV03-1\Profils$\Jean-Michel.Blaser|\\\\ICT158-SRV03-1\Utilisateurs$\Jean-Michel.Blaser|Script_Logistique.vbs|
+|André Dupré|andre.dupre|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\andre.dupre|\\\\ICT158-SRV03-1\Utilisateurs$\andre.dupre|Script_Marketing.vbs|
+|Juerg Haefeli|Juerg.haefeli|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\Juerg.haefeli|\\\\ICT158-SRV03-1\Utilisateurs$\Juerg.haefeli|Script_Production.vbs|
+|Admin|Admin|Utilisateur|-|-|-|
 
 ### DNS
-#### Zone de recherche directes
+#### Zones de recherche directes
 
-\_msdcs.Scualopro.local :
+* \_msdcs.Scuolapro.local
+* Scuolapro.local
 
+#### Zones de recherche inversée
+Pas de zone de recherche inverse configurée.
 ### DHCP
 
 Étendue 10.1.1.0 :
@@ -132,7 +137,7 @@ Liste des imprimantes
   * Option d'étendue :
     * Routeur : 10.1.1.1
     * Serveure DNS : 10.1.1.20
-    * Nom de domaine DNS : SculaPro.local
+    * Nom de domaine DNS : ScuolaPro.local
 
 ### Scripts
 |Non|Description|
@@ -160,6 +165,7 @@ Liste des imprimantes
 
 ### Logiciels
 
+##### ICT158-CLI7-1
 |Nom|Éditeur|Version|
 |---|-------|-------|
 |Bonjour|Apple Inc.|2.0.4.0|
@@ -176,4 +182,11 @@ Liste des imprimantes
 |Microsoft .NET Framwork 4 Client Profile|Microsoft Corporation|4.0.30319|
 |Microsoft Office Professional Edition 2003|Microsoft Corporation|11.0.5614.0|
 |Microsoft Visual C++ 2008 Redistributable - x64|Microsoft Corporation|9.0.30729.6161|
+|Microsoft Visual C++ 2008 Redistributable - x86|Microsoft Corporation|9.0.30729.4148|
+
+##### ICT158-SRV03-01
+
+|Nom|Éditeur|Version|
+|---|-------|-------|
+|Windows Server 2003 Services Pack 2|Microsoft Corporation|20070217.021435|
 |Microsoft Visual C++ 2008 Redistributable - x86|Microsoft Corporation|9.0.30729.4148|

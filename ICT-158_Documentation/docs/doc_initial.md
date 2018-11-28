@@ -140,15 +140,29 @@ Liste des imprimantes
 
 * Marque : Dell Latitude E6510
 * Nom : ICT158-CLI7-1
-* Système d'exploitation : Windows 7
+* Système d'exploitation : Windows 7 Entreprise
 * CPU : Intel Core I7 6700 3.4 Ghz
 * Nombre de coeur : 1
 * RAM : 2048 Mo
 * Disques durs :
   * Disque 1 : 60Go
 
+### Logiciels
 
-### Configuration réseau
-* ip :
-* Masque de sous-réseau :
-* Domaine :
+|Nom|Éditeur|Version|
+|---|-------|-------|
+|Bonjour|Apple Inc.|2.0.4.0|
+|Adobe Acrobat Reader DC - Français|Adobe Systems Incorporated|15.017.20050|
+|Gadwin PrintScreen (64-Bit)|Gadwin Systems|5.4.2.0|
+|Avira Launcher|Avira Operations GmbH & Co. KG|1.2.71.21096|
+|XMind 7.5 Update 1|XMind Ltd.|3.6.51.201607142338|
+|Mozillia Maintenance Service|Mozilla|49.0.1|
+|Mozillia Firefox|Mozilla|49.0.1|
+|Avira Antivirus|Avira Operations GmbH & Co. KG|15.0.20.59|
+|PDFCreator|pdfforge GmbH|2.3.2|
+|UltraVnc|uvnc bvba|1.2.1.1|
+|Module linguistique Microsoft .NET Framework 4 Client Profile Français|Microsoft Corporation|4.0.30319|
+|Microsoft .NET Framwork 4 Client Profile|Microsoft Corporation|4.0.30319|
+|Microsoft Office Professional Edition 2003|Microsoft Corporation|11.0.5614.0|
+|Microsoft Visual C++ 2008 Redistributable - x64|Microsoft Corporation|9.0.30729.6161|
+|Microsoft Visual C++ 2008 Redistributable - x86|Microsoft Corporation|9.0.30729.4148|

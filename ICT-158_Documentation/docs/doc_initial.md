@@ -134,6 +134,17 @@ Liste des imprimantes
     * Serveure DNS : 10.1.1.20
     * Nom de domaine DNS : SculaPro.local
 
+### Scripts
+|Non|Description|
+|---|-----------|
+|Script_Back.vbs|Attribue à la personen du back-office une imprimante et le partage qui lui est dédié|
+|Script_Compta.vbs|Attribue à la personen de la comptabilité une imprimante et le partage qui lui est dédié|
+|Script_Direction.vbs|Attribue à la personen de la direction une imprimante et le partage qui lui est dédié|
+|Script_IT.vbs|Attribue à la personen de l'IT une imprimante et le partage qui lui est dédié|
+|Script_Logistique.vbs|Attribue à la personen de la logictique une imprimante et le partage qui lui est dédié|
+|Script_Merketing.vbs|Attribue à la personen du marketing une imprimante et le partage qui lui est dédié|
+|Script_Production.vbs|Attribue à la personen de la production une imprimante et le partage qui lui est dédié|
+
 
 
 ## Configuration ICT158-CLI7-1

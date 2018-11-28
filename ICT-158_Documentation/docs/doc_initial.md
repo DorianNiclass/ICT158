@@ -10,7 +10,7 @@
 ### Configuration
 * Marque : HP Proliant DL380 Gen5
 * Nom : ICT158-SRV03-1
-* Système d'exploitation :
+* Système d'exploitation : Windows server 2003
 * CPU : Intel Core I7 6700 3.4 Ghz
 * Nombre de coeur : 1
 * RAM : 512 Mo
@@ -116,11 +116,37 @@ Liste des imprimantes
 |Jean-Michel Blaser|Jean-Michel.Blaser|Utilisateurs du domaine<br> Logistique|
 |André Dupré|andre.dupre|Utilisateurs du domaine|
 |Juerg Haefeli|Juerg.haefeli|Utilisateurs du domaine|
+|Admin|Admin|Utilisateur|
 
 ### DNS
+#### Zone de recherche directes
+
+\_msdcs.Scualopro.local :
+
 ### DHCP
 
-## Configuration *nom*
+Étendue 10.1.1.0 :
+  * Pool d'adresse :
+    * Début : 10.1.1.40
+    * Fin : 10.1.1.199
+  * Option d'étendue :
+    * Routeur : 10.1.1.1
+    * Serveure DNS : 10.1.1.20
+    * Nom de domaine DNS : SculaPro.local
+
+
+
+## Configuration ICT158-CLI7-1
+
+* Marque : Dell Latitude E6510
+* Nom : ICT158-CLI7-1
+* Système d'exploitation : Windows 7
+* CPU : Intel Core I7 6700 3.4 Ghz
+* Nombre de coeur : 1
+* RAM : 2048 Mo
+* Disques durs :
+  * Disque 1 : 60Go
+
 
 ### Configuration réseau
 * ip :

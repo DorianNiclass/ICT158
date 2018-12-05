@@ -1,4 +1,4 @@
-# Documentation initial
+# Documentation initial - ScuolaPro
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -72,6 +72,8 @@
 * DHCP
 
 
+<div class="page-break"></div>
+
 ### Serveur de fichier
 #### Partages
 |Nom|Chemin|Caché|
@@ -103,6 +105,9 @@ Liste des imprimantes
 |HP_Log|10.1.1.202|
 |HP_Marketing|10.1.1.205|
 |HP_Prod|10.1.1.203|
+
+<div class="page-break"></div>
+
 
 ### Active directory
 
@@ -154,6 +159,10 @@ Liste des imprimantes
 |André Dupré|andre.dupre|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\andre.dupre|\\\\ICT158-SRV03-1\Utilisateurs$\andre.dupre|Script_Marketing.vbs|
 |Juerg Haefeli|Juerg.haefeli|Utilisateurs du domaine|\\\\ICT158-SRV03-1\Profils$\Juerg.haefeli|\\\\ICT158-SRV03-1\Utilisateurs$\Juerg.haefeli|Script_Production.vbs|
 |Admin|Admin|Utilisateur|-|-|-|
+
+
+<div class="page-break"></div>
+
 
 ### DNS
 #### Zones de recherche directes

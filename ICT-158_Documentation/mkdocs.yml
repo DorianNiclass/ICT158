@@ -3,6 +3,6 @@ theme:
   name: 'material'
 nav:
   - Accueil: index.md
-  - Doc initial: doc_initial.md
+  - Documentation initial: doc_initial.md
 
 use_directory_urls: false

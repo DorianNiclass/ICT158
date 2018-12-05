@@ -1,16 +1,12 @@
-# Welcome to MkDocs
+# Migration de l'infrastructure ScuolaPro
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## Introduction
 
-## Commands
+Ce projet consiste à migrer l'infrastructure actuelle de ScuolaPro vers des systèmes plus récents.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Plusieurs étapes devront être entreprises pour y parvenir
 
-## Project layout
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Analyse de l'environnement initial de ScuolaPro
+* Plannifier la migration de l'infrastructure
+* Mettre en place la migration
+* Documenter l'environnement final

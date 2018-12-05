@@ -17,10 +17,15 @@
 * Nombre de coeur : 1
 * RAM : 512 Mo
 * Disques durs :
-  * Disque 1 : 40Go
-  * Disque 2 : 40Go
-  * Disque 3 : 40Go
-  * Disque 4 : 40Go
+    * Disque 1 : 40Go
+    * Disque 2 : 40Go
+    * Disque 3 : 40Go
+    * Disque 4 : 40Go
+
+#### Configuration RAID
+* RAID-5 (3 disques, 1 de parité):
+    * Disques : 2, 3 et 4
+    * Capacité total : 80 Go
 
 ### Configuration réseau
 * Ip : 10.1.1.20
@@ -128,13 +133,16 @@ Liste des imprimantes
 
 #### Zones de recherche inversée
 Pas de zone de recherche inverse configurée.
+
 ### DHCP
 
 Étendue 10.1.1.0 :
-  * Pool d'adresse :
+
+* Pool d'adresse :
     * Début : 10.1.1.40
     * Fin : 10.1.1.199
-  * Option d'étendue :
+
+* Option d'étendue :
     * Routeur : 10.1.1.1
     * Serveure DNS : 10.1.1.20
     * Nom de domaine DNS : ScuolaPro.local
@@ -142,13 +150,13 @@ Pas de zone de recherche inverse configurée.
 ### Scripts
 |Non|Description|
 |---|-----------|
-|Script_Back.vbs|Attribue à la personen du back-office une imprimante et le partage qui lui est dédié|
-|Script_Compta.vbs|Attribue à la personen de la comptabilité une imprimante et le partage qui lui est dédié|
-|Script_Direction.vbs|Attribue à la personen de la direction une imprimante et le partage qui lui est dédié|
-|Script_IT.vbs|Attribue à la personen de l'IT une imprimante et le partage qui lui est dédié|
-|Script_Logistique.vbs|Attribue à la personen de la logictique une imprimante et le partage qui lui est dédié|
-|Script_Merketing.vbs|Attribue à la personen du marketing une imprimante et le partage qui lui est dédié|
-|Script_Production.vbs|Attribue à la personen de la production une imprimante et le partage qui lui est dédié|
+|Script_Back.vbs|Attribue à la personne du back-office une imprimante et le partage qui lui est dédié|
+|Script_Compta.vbs|Attribue à la personne de la comptabilité une imprimante et le partage qui lui est dédié|
+|Script_Direction.vbs|Attribue à la personne de la direction une imprimante et le partage qui lui est dédié|
+|Script_IT.vbs|Attribue à la personne de l'IT une imprimante et le partage qui lui est dédié|
+|Script_Logistique.vbs|Attribue à la personne de la logistique une imprimante et le partage qui lui est dédié|
+|Script_Merketing.vbs|Attribue à la personne du marketing une imprimante et le partage qui lui est dédié|
+|Script_Production.vbs|Attribue à la personne de la production une imprimante et le partage qui lui est dédié|
 
 
 

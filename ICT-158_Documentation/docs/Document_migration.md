@@ -1,3 +1,4 @@
+
 # Document de planification de la migration - ScuolaPro
 
 ## Introduction
@@ -35,3 +36,14 @@ Déplacer directement les disques durs contenant les données sur le Windows Ser
 
 
 ## Migration des services
+
+## Matériel
+### Prérequis matériel Windows Server 2012 R2
+Windows server 2012 R2 à besoin au minimum :
+* CPU : 1.4 GHz 64-Bit
+* RAM : 512 Mo
+* Disque : 32 Go
+* Carte réseau : 10/100/1000baseT
+
+#### Note
+Windows Server 2012 R2 aura besoin de plus de place sur le disque dur si il y a 16 Go de RAM ou plus installé pour les mémoires tempons, etc...

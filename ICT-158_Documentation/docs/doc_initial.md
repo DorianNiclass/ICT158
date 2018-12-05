@@ -1,5 +1,36 @@
 # Documentation initial
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Documentation initial](#documentation-initial)
+	- [Adressage ip](#adressage-ip)
+	- [Configuration ICT158-SRV03-1](#configuration-ict158-srv03-1)
+		- [Configuration](#configuration)
+			- [Configuration RAID](#configuration-raid)
+		- [Configuration réseau](#configuration-rseau)
+		- [Services installés](#services-installs)
+		- [Serveur de fichier](#serveur-de-fichier)
+			- [Partages](#partages)
+		- [Serveur d'impression](#serveur-dimpression)
+		- [Active directory](#active-directory)
+			- [Configuration AD](#configuration-ad)
+			- [Groupes AD](#groupes-ad)
+			- [Utilisateurs AD](#utilisateurs-ad)
+		- [DNS](#dns)
+			- [Zones de recherche directes](#zones-de-recherche-directes)
+			- [Zones de recherche inversée](#zones-de-recherche-inverse)
+		- [DHCP](#dhcp)
+		- [Scripts](#scripts)
+	- [Configuration ICT158-CLI7-1](#configuration-ict158-cli7-1)
+		- [Logiciels](#logiciels)
+				- [ICT158-CLI7-1](#ict158-cli7-1)
+				- [ICT158-SRV03-01](#ict158-srv03-01)
+
+<!-- /TOC -->
+
+<div class="page-break"></div>
+
+
 ## Adressage ip
 |Nom|Adresse|Masque de sous-réseau|
 |---|-------|---------------------|
@@ -8,13 +39,12 @@
 
 ## Configuration ICT158-SRV03-1
 
-
 ### Configuration
 * Marque : HP Proliant DL380 Gen5
 * Nom : ICT158-SRV03-1
 * Système d'exploitation : Windows server 2003
-* CPU : Intel Core I7 6700 3.4 Ghz
-* Nombre de coeur : 1
+* CPU : Intel Xeon Processor E5450 3 Ghz
+* Nombre de coeur : 4
 * RAM : 512 Mo
 * Disques durs :
     * Disque 1 : 40Go
@@ -170,7 +200,7 @@ Emplacement : **D:\Downloads**
 * Marque : Dell Latitude E6510
 * Nom : ICT158-CLI7-1
 * Système d'exploitation : Windows 7 Entreprise
-* CPU : Intel Core I7 6700 3.4 Ghz
+* CPU : Intel Core i7 720QM 1.6 Ghz
 * Nombre de coeur : 1
 * RAM : 2048 Mo
 * Disques durs :

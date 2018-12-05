@@ -158,7 +158,12 @@ Pas de zone de recherche inverse configurée.
 |Script_Merketing.vbs|Attribue à la personne du marketing une imprimante et le partage qui lui est dédié|
 |Script_Production.vbs|Attribue à la personne de la production une imprimante et le partage qui lui est dédié|
 
+### Déploiement d'OS
+Emplacement : **D:\Downloads**
 
+|Scripts|Images|Executables|
+|-------|------|-----------|
+|.\DeployImage.bat <br> .\ExtractImage.bat|.\winpe.iso <br> &nbsp;&nbsp;&nbsp;&nbsp; (Image iso de WinPE)<br> .\images\ScuolaPro-Cli7-vi.wim <br> &nbsp;&nbsp;&nbsp;&nbsp; (Image d'OS Windows 7 préconfigurée)|.\imagex.exe|
 
 ## Configuration ICT158-CLI7-1
 

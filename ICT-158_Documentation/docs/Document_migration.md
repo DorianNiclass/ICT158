@@ -7,7 +7,7 @@ Le matériel, les données et les services devront, dans la mesure du possible, 
 
 ## Migration des données
 
-3 méthodes
+Nous proposons 3 méthodes différentes pour la migration des données.
 
 ### Méthode 1 - Via supports externes
 
@@ -35,3 +35,22 @@ Déplacer directement les disques durs contenant les données sur le Windows Ser
 
 
 ## Migration des services
+
+Nous proposons 2 méthodes différentes pour la migration des services.
+
+### Méthode 1 - Replications
+
+Répliquer les services (DNS, DHCP, AD) et dupliquer les partages sur le nouveau serveur. Il faut pour cela mettre en place le nouveau serveur, le promouvoir en contrôleur de domaine, pratiquer la replication, dépromouvoir l'ancien serveur.
+Le nouveau serveur reprendra l'entière responsabilité des services. Cette méthode permet une migration sans interuption de service.
+
+|Avantages|Inconvénients|
+|---------|-------------|
+|- Pas d'interruption de service| - Long à mettre en place (il faut paramétrer les réplications sur tous les services et vérifier leur fonctionnement)|
+
+### Méthode 2 - Copie des données des services
+
+Copier et déplacer les bases de données AD, DNS et DHCP vers le nouveau serveur et les importer dans les nouveaux services. Il faut pour cela mettre en place le nouveau serveur et y installer les services. Pour pouvoir copier correctement les bases de données il faut stopper les services, ce qui ne garanti par une migration sans interruption de service.
+
+|Avantages|Inconvénients|
+|---------|-------------|
+|- Plus rapide à mettre en place| - Ne garanti pas une migration sans interruption de service|

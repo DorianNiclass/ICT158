@@ -46,4 +46,46 @@ Windows server 2012 R2 à besoin au minimum :
 * Carte réseau : 10/100/1000baseT
 
 #### Note
-Windows Server 2012 R2 aura besoin de plus de place sur le disque dur si il y a 16 Go de RAM ou plus installé pour les mémoires tempons, etc...
+Windows Server 2012 R2 aura besoin de plus de place sur le disque dur si il y a 16 Go de RAM ou plus installé pour la mémoire tampon, etc...
+
+### Matériel Serveur
+* CPU : Intel Xeon Processor E5450 3 Ghz
+* Nombre de coeur : 4
+* RAM : 512 Mo
+* Disques durs :
+    * Disque 1 : 40Go
+    * Disque 2 : 40Go
+    * Disque 3 : 40Go
+    * Disque 4 : 40Go
+
+### Analyse matériel
+Le serveur respecte la configuration minimal nécessaire pour l'installation de Windows Server 2012 R2, mais du à son matériel et son ancienneté, il risque d'y avoir des ralentisements dans le système notament à cause du manque de RAM et la vitesse des disques durs.
+
+### Solutions
+
+#### Solution 1
+Investisement dans du nouveau matériel.
+
+##### Aventage
++ Rentable sur le long terme.
++ Contrôle sur les spécifications matériels.
+##### Inconvénient
+- Investisement important à la mise en place du serveur.
+- Infrastructure adapté.
+- Il faut revaloriser l'ancien matériel.
+
+#### Solution 2
+Hébergement dans le cloud.
+
+##### Aventage
++ Coût matériel inexistant
+##### Inconvénient
+-
+
+#### Solution 3
+Garder le même matériel est améliorers les composants
+
+##### Aventage
++ Coût matériel faible
+##### Inconvénient
+- Migration plus compliqué

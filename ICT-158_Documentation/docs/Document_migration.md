@@ -88,12 +88,19 @@ Copier et déplacer les bases de données AD, DNS et DHCP vers le nouveau serveu
 |---------|-------------|
 |- Plus rapide à mettre en place| - Ne garanti pas une migration sans interruption de service|
 
-## Répartition des méthodes par employers
+## Choix des méthodes
 
+Nous testerons les méthodes 2 et 3 pour la migration de donnée et les méthodes 1 et 2 pour la migration des services.
+
+Attributions des méthodes :
 |Nom|Prénom|Méthode Données|Méthode service|
 |---|------|---------------|---------------|
 |Aellen|Quentin|3|2|
 |Niclass|Dorian|2|1|
+
+### Conclusion
+
+Après la mise en pratique de chaques méthodes, nous avons opté pour la méthodes 2 pour la migration des données et la méthode 1 pour la migration des services en tant que mthodes les plus efficaces.
 
 ## Matériel
 ### Prérequis matériel Windows Server 2012 R2
@@ -151,11 +158,11 @@ Garder le même matériel est améliorers les composants
 #### Choix final
 Nous avons opté pour le remplacement de l'ancien serveur par un nouveau qui est le ![Dell PowerEdge T330](https://www.digitec.ch/fr/s1/product/dell-poweredge-t130-xeon-e3-4go-1000go-35-serveurs-7946361). Il faudra équalement un lot de 3 disques durs, ceux que l'on a choisit sont les ![Western digital gold](https://www.digitec.ch/fr/s1/product/wd-gold-1to-35-station-de-travail-serveurs-disques-durs-5925025?tagIds=76-535) de 1 To. Nous aurons besoin aussi de ![RAM](https://www.digitec.ch/fr/s1/product/kingston-memory-ddr4-4gb-2400mhz-non-ecc-1x-4go-ddr4-2400-dimm-288-memoires-vives-6976920?tagIds=76) supplémentaire. Ce qui fait au total un coût de **985.20 fr**.
 
-##### Justificatif financière
-Par rapport à la matrix de comparaison avec les principales caractéristiques important nécessaire pour le fonctionnement de windows server 2012 R2, nous somme arrivé à la conclusion que cette solution serait la meilleures.
+##### Justification financière
+Par rapport à la matrice de comparaison avec les principales caractéristiques importantes nécessaires pour le fonctionnement de Windows server 2012 R2, nous somme arrivé à la conclusion que cette solution serait la meilleure.
 ![img](justification.png)
 
-On l'a choisi car il dispose des caractéristiques nécessaire pour un fonctionnement optimum de Windows Server 2012 R2 dans le cadre de l'entreprise Sculapro et coût relativement peu cher. A cela nous y ajoute trois disques durs Western Digital Gold de 1 To pour pouvoir mettre en place
+On l'a choisi car il dispose des caractéristiques nécessaires pour un fonctionnement optimum de Windows Server 2012 R2 dans le cadre de l'entreprise Scuolapro et coûte relativement peu cher. A cela nous y ajoutons trois disques durs Western Digital Gold de 1 To pour pouvoir mettre en place
 
 ##### Matériel nouveau serveur
 * CPU : Intel xeon e3 1220 v6

@@ -1,5 +1,37 @@
-
 # Document de planification de la migration - ScuolaPro
+
+<div class="page-break"></div>
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Document de planification de la migration - ScuolaPro](#document-de-planification-de-la-migration-scuolapro)
+	- [Introduction](#introduction)
+	- [Migration des données](#migration-des-donnes)
+		- [Méthode 1 - Via supports externes](#mthode-1-via-supports-externes)
+		- [Méthode 2 - Transfère via le réseau](#mthode-2-transfre-via-le-rseau)
+		- [Méthode 3 - Déplacer les disques durs](#mthode-3-dplacer-les-disques-durs)
+	- [Migration des services](#migration-des-services)
+	- [Matériel](#matriel)
+		- [Prérequis matériel Windows Server 2012 R2](#prrequis-matriel-windows-server-2012-r2)
+			- [Note](#note)
+		- [Matériel Serveur](#matriel-serveur)
+		- [Analyse matériel](#analyse-matriel)
+		- [Solutions](#solutions)
+			- [Solution 1](#solution-1)
+				- [Aventage](#aventage)
+				- [Inconvénient](#inconvnient)
+			- [Solution 2](#solution-2)
+				- [Aventage](#aventage)
+				- [Inconvénient](#inconvnient)
+			- [Solution 3](#solution-3)
+				- [Aventage](#aventage)
+				- [Inconvénient](#inconvnient)
+			- [Choix final](#choix-final)
+				- [Caractéristiques du serveur](#caractristiques-du-serveur)
+
+<!-- /TOC -->
+
+<div class="page-break"></div>
 
 ## Introduction
 
@@ -35,7 +67,18 @@ Déplacer directement les disques durs contenant les données sur le Windows Ser
 |- Transfère rapide <br> - Pas besoin de racheter des disques durs|- Les données sont temporairement indisponible <br> - Nécessite une interuption des services|
 
 
+
 ## Migration des services
+
+## Répartition des méthodes par employers
+
+|Nom|Prénom|Méthode Données|Méthode service|
+|---|------|---------------|---------------|
+|Aellen|Quentin|3|2|
+|Niclass|Dorian|2|1|
+
+
+
 
 ## Matériel
 ### Prérequis matériel Windows Server 2012 R2
@@ -48,7 +91,7 @@ Windows server 2012 R2 à besoin au minimum :
 #### Note
 Windows Server 2012 R2 aura besoin de plus de place sur le disque dur si il y a 16 Go de RAM ou plus installé pour la mémoire tampon, etc...
 
-### Matériel Serveur
+### Matériel Serveur Actuelle
 * CPU : Intel Xeon Processor E5450 3 Ghz
 * Nombre de coeur : 4
 * RAM : 512 Mo
@@ -80,7 +123,7 @@ Hébergement dans le cloud.
 ##### Aventage
 + Coût matériel inexistant
 ##### Inconvénient
--
+- Dépendant d'une infrastructure externe
 
 #### Solution 3
 Garder le même matériel est améliorers les composants
@@ -89,3 +132,22 @@ Garder le même matériel est améliorers les composants
 + Coût matériel faible
 ##### Inconvénient
 - Migration plus compliqué
+
+#### Choix final
+Nous avons opté pour le remplacement de l'ancien serveur par un nouveau qui est le ![Dell PowerEdge T330](https://www.digitec.ch/fr/s1/product/dell-poweredge-t130-xeon-e3-4go-1000go-35-serveurs-7946361). Il faudra équalement un lot de 3 disques durs, ceux que l'on a choisit sont les ![Western digital gold](https://www.digitec.ch/fr/s1/product/wd-gold-1to-35-station-de-travail-serveurs-disques-durs-5925025?tagIds=76-535) de 1 To. Nous aurons besoin aussi de ![RAM](https://www.digitec.ch/fr/s1/product/kingston-memory-ddr4-4gb-2400mhz-non-ecc-1x-4go-ddr4-2400-dimm-288-memoires-vives-6976920?tagIds=76) supplémentaire. Ce qui fait au total un coût de **985.20 fr**.
+
+##### Justificatif financière
+Par rapport à la matrix de comparaison avec les principales caractéristiques important nécessaire pour le fonctionnement de windows server 2012 R2, nous somme arrivé à la conclusion que cette solution serait la meilleures.
+![img](justification.png)
+
+On l'a choisi car il dispose des caractéristiques nécessaire pour un fonctionnement optimum de Windows Server 2012 R2 dans le cadre de l'entreprise Sculapro et coût relativement peu cher. A cela nous y ajoute trois disques durs Western Digital Gold de 1 To pour pouvoir mettre en place
+
+##### Matériel nouveau serveur
+* CPU : Intel xeon e3 1220 v6
+* Nombre de coeur : 4
+* RAM : 8 Go
+* Disques durs :
+    * Disque 1 : 1000 Go
+    * Disque 2 : 1000 Go
+    * Disque 3 : 1000 Go
+    * Disque 4 : 1000 Go

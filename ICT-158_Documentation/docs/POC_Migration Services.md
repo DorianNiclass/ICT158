@@ -49,7 +49,7 @@ Augmenter le niveau fonctionnel de la forêt :
 ![](Images/AD1.png)  
 3. Installer le serveur DNS avec
 4. Répliquer à partir du Windows Server 2003  
-![](Images/AD2png)  
+![](Images/AD2.png)  
 5. Laisser les chemins d'accès par défaut et terminer la configuration
 
 #### Migration du DHCP

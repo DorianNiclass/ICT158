@@ -11,10 +11,14 @@
 		- [Méthode 2 - Transfère via le réseau](#mthode-2-transfre-via-le-rseau)
 		- [Méthode 3 - Déplacer les disques durs](#mthode-3-dplacer-les-disques-durs)
 	- [Migration des services](#migration-des-services)
+		- [Méthode 1 - Replications](#mthode-1-replications)
+		- [Méthode 2 - Copie des données des services](#mthode-2-copie-des-donnes-des-services)
+	- [Choix des méthodes](#choix-des-mthodes)
+		- [Conclusion](#conclusion)
 	- [Matériel](#matriel)
 		- [Prérequis matériel Windows Server 2012 R2](#prrequis-matriel-windows-server-2012-r2)
 			- [Note](#note)
-		- [Matériel Serveur](#matriel-serveur)
+		- [Matériel Serveur Actuelle](#matriel-serveur-actuelle)
 		- [Analyse matériel](#analyse-matriel)
 		- [Solutions](#solutions)
 			- [Solution 1](#solution-1)
@@ -27,7 +31,8 @@
 				- [Aventage](#aventage)
 				- [Inconvénient](#inconvnient)
 			- [Choix final](#choix-final)
-				- [Caractéristiques du serveur](#caractristiques-du-serveur)
+				- [Justification financière](#justification-financire)
+				- [Matériel nouveau serveur](#matriel-nouveau-serveur)
 
 <!-- /TOC -->
 

@@ -30,8 +30,25 @@ Migrer les machines clientes vers Windows 10 en prennant compte de l'hardware, d
 
 Matériel obsolète pour Windows 10, choix du matériel de remplacement et justification.
 
+### Justification
+La configuration des ordinateurs ordinateur portable et fixe suivant répondent aux critères de la configuration minimal de Windows 10.
+![](./Images/Dell.png)
+Bien que les configurations soient compatibles avec windows 10, ça ne garantie pas des performances optimals pour leur fonctionnement.
+
+## Choix matériel
+
+Pour choisir le matériel adapté j'ai crée une matrice excel basé sur les critères que j'ai estimé important.
+
+Voici la matrice en question :
+![]()
+
+
 ## Solutions de migration
 
 ### Solution 1
 
+Mise en place d'un système de déployement de système d'exploitation et de logiciel. Cette solution permet une administration centralisé et permet de facilement déployer de nouvelle version d'un logiciel.
+
 ### Solution 2
+
+Installation manuel du système d'exploitation et mise à jour manuel des applications.

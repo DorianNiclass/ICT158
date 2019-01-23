@@ -42,8 +42,10 @@ Pour choisir le matériel adapté j'ai utilisé une matrice excel basé sur les 
 Voici la matrice en question :
 ![](./Images/matrice.png)
 
-Pour établire les scores je me suis basé sur la comparaison sur le site digitec disponible ![ici](https://www.digitec.ch/fr/Comparison/9806202-5940321-9307088-9864024), et sur des benchmarks l'un pour les processeures ![](./Images/cpu.png) et l'autre pour les carte graphique. ![](./Images/gpu.png)
+Pour établire les scores je me suis basé sur la comparaison sur le site digitec disponible ![ici](https://www.digitec.ch/fr/Comparison/9806202-5940321-9307088-9864024), ![](./Images/laptops.png) , et sur des benchmarks l'un pour les processeures ![](./Images/cpu.png) et l'autre pour les carte graphique. ![](./Images/gpu.png)
 
+
+Le choix final se portera sur le Dell vostro 5568 ayant un prix hors réduction de 599 fr.
 
 ## Solutions de migration
 

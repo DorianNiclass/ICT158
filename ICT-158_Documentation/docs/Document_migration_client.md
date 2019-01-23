@@ -31,7 +31,8 @@ Migrer les machines clientes vers Windows 10 en prennant compte de l'hardware, d
 Matériel obsolète pour Windows 10, choix du matériel de remplacement et justification.
 
 ### Justification
-La configuration des ordinateurs portable et fixe suivant répondent aux critères de la configuration minimal de Windows 10.
+
+La configuration des ordinateurs portables et fixes suivant répondent aux critères de la configuration minimal de Windows 10.
 ![](./Images/Dell.png)
 Bien que les configurations soient compatibles avec windows 10, ça ne garantie pas des performances optimals pour leur fonctionnement.
 
@@ -51,8 +52,18 @@ Le choix final se portera sur le Dell vostro 5568 ayant un prix hors réduction 
 
 ### Solution 1
 
-Mise en place d'un système de déployement de système d'exploitation et de logiciel. Cette solution permet une administration centralisé et permet de facilement déployer de nouvelle version d'un logiciel.
+Mise en place d'un système de déployement de système d'exploitation et de logiciel. Cette solution permet une administration centralisée et permet de facilement déployer de nouvelles versions d'un logiciel.
+
+#### Démarche
+
 
 ### Solution 2
 
-Installation manuel du système d'exploitation et mise à jour manuel des applications.
+Installation manuelle du système d'exploitation et mise à jour manuelle des applications. Créer ensutie une image pré-configurée avec les applications installées.
+
+#### Démarche
+
+* Mettre à jour l'OS vers Windows 10 Pro 64 bit
+* Mettre à jour toutes les applications
+* A l'aide du Windows Kit (ADK), créer une nouvelle image Windows à partir de l'état système actuel
+* Monter l'image sur tout les postes, manuellement ou automatiquement grâce au service de déploiement d'OS de Windows Server 2012R2
